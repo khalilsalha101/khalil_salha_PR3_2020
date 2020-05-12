@@ -107,9 +107,7 @@ public class Student_TransactionController implements Initializable {
    
         String sql2="Insert Into student values("+sid+",'"+sname+"','"+major+"',"+grade+")"; 
         this.statement.executeUpdate(sql2);
-        
-  
-            tableviewstd.getItems().clear();
+         tableviewstd.getItems().clear();
             referachTable();
         
              
